@@ -1,8 +1,4 @@
 /* tslint:disable:no-console */
-/*
-  This is an example of unfollowing users who aren't following you back.
-  Thanks to the developers for this great package.
- */
 import "dotenv/config";
 import { IgApiClient, Feed } from "instagram-private-api/dist/";
 
@@ -41,7 +37,6 @@ ig.state.generateDevice(process.env.IG_USERNAME as string);
 })();
 
 /**
- * Source: https://github.com/dilame/instagram-private-api/issues/969#issuecomment-551436680
  * @param feed
  * @returns All items from the feed
  */
