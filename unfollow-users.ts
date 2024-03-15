@@ -28,10 +28,10 @@ ig.state.generateDevice(process.env.IG_USERNAME as string);
     await ig.friendship.destroy(user.pk);
     console.log(`unfollowed ${user.username}`);
     /*
-          Time, is the delay which is between 1 second and 7 seconds.
+          Time, is the delay which is between 7 second and 15 seconds.
           Creating a promise to stop the loop to avoid api spam
        */
-    const time = Math.round(Math.random() * 6000) + 1000;
+    const time = Math.round(Math.random() * 8000) + 7000;
     await new Promise((resolve) => setTimeout(resolve, time));
   }
 })();
