@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node unfollow-users.ts"
+    "start": "ts-node unfollow-users.ts",
+    "find-users": "ts-node find-users.ts"
   },
   "author": "",
   "license": "ISC",
